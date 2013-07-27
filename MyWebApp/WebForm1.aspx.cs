@@ -23,7 +23,7 @@ namespace MyWebApp
             ServiceReference1.Service1Client serv = new ServiceReference1.Service1Client();
             DataTable answer = serv.GetCustomer(myQuery);
             GridView1.DataSource = answer;
-
+//dsfasdf
             GridView1.DataBind();
             //TextBox1.Text = answer;
         }
